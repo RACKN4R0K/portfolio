@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    color: black;    
+
+}
+.container{
+    width: 100%;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(assets/texture-2068283_1920.jpg);
+}
+.nome{
+    font-size: 40px;
+    margin-top: 10%;
+}
+.profissao{
+    margin-top: 3%;
+    color: gray;
+}
+.strong{
+    color: black;
+}
+.redes-sociais{
+    margin-top: 3%;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin-bottom: 30%;
+}
+.redes-sociais-icones{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 1px black;
+    padding: 5px;
+    transition: .7s ease 0s;
+    outline: 1px solid black;
+}
+.redes-sociais-icones:hover{
+    background: white;
+    width: 55px;
+    height: 55px;
+}
+.menu{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.foto{
+    width: 250px;
+    height: 250px;
+}
+.menu-barra nav{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-barra nav p{
+
+}
+.menu-barra nav p:nth-child(1){
+    padding-left: 50px;
+}
