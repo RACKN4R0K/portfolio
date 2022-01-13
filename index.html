@@ -1,42 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Portfolio</title>
 </head>
+<!--home about contato projetos serviços-->
 
 <body>
-    <div class="container">
-        <h1 class="nome">
-            Henrique Fernandes Rodrigues
-        </h1>
-        <h3 class="profissao">
-            I'm <strong class="strong">Web Developer</strong>
-        </h3>
-        <div class="redes-sociais">
-            <a href="https://www.instagram.com/henrique_hfr"><img src="src/assets/instagram.svg" alt="" class="redes-sociais-icones"></a>
-            <a href="https://www.github.com/RACKN4R0K"><img src="src/assets/github.svg" alt="" class="redes-sociais-icones"></a>
-            <a href="https://www.linkedin.com/in/henriquehfr/"><img src="src/assets/linkedin.svg" alt="" class="redes-sociais-icones"></a>
-            <a href="malito:contatohenrique.hfr@gmail.com"><img src="src/assets/email.svg" alt="" class="redes-sociais-icones"></a>
-        </div>
-    </div>
-    <div class="menu">
-        <img src="src/assets/WhatsApp Image 2022-01-12 at 22.53.53.jpeg" alt="" class="foto">
-        <div class="menu-barra">
-            <nav>
-                <p>Sobre mim</p>
-                <p>Projetos</p>
-                <p>Contato</p>
-                <p>Currilo</p>
-            </nav>
-        </div>
-    </div>
-    <script src="src/script/script.js"></script>
+    <div class="parent">
+        <header>
+            <div class="sidebar">
+                <div class="sidebar-pos">
+                    <div class="logo">
+                        <a href="#"><span>A</span>tlas</a>
+                    </div>
+                    <!--img-->
 
+                    <div class="menu">
+                        <div class="icones">
+                            <a class="selected" href="#"><img src="assets/home_black_24dp.svg" alt="">
+                                <p>Home</p>
+                            </a>
+                        </div>
+                        <div class="icones">
+                            <a href="#"><img src="assets/person_outline_black_24dp.svg" alt="">
+                                <p>sobre mim</p>
+                            </a>
+                        </div>
+                        <div class="icones">
+                            <a href="#"><img src="assets/list_black_24dp.svg" alt="">
+                                <p>Experiência</p>
+                            </a>
+                        </div>
+                        <div class="icones">
+                            <a href="#"><img src="assets/business_center_black_24dp.svg" alt="">
+                                <p>Projetos</p>
+                            </a>
+                        </div>
+                        <div class="icones">
+                            <a href=""><img src="assets/question_answer_black_24dp.svg" alt="">
+                                <p>contato</p>
+                            </a>
+                        </div>
+
+                    </div>
+                    <!--menu-->
+                </div>
+                <!--sidebar-pos-->
+            </div>
+            <!--sidebar-->
+        </header>
+
+        <div class="content">
+            <div class="descricao">
+                <p class="titulo-descricao">Hello, my name is
+                    <a href="#" class="nome">Henrique Fernandes</a>
+                </p>
+                <!--titulo-descricao-->
+
+                <p class="conteudo-descricao">I'm Paulista, born in the city of Guarulhos/SP. I am currently a high school student, I am a computer technician at
+                    <a href="https://www.eniac.com.br/" class="escola">colégio Eniac</a>...</p>
+                <!--conteudo-descricao-->
+                <input type="button" value="Hire me" class="botao-contato">
+            </div>
+            <!--descricao-->
+        </div>
+        <!--Content-->
+    </div>
+    <!--Parent-->
 </body>
 
 </html>
