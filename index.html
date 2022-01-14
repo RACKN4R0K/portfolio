@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Portfolio</title>
 </head>
@@ -13,65 +14,56 @@
 <body>
     <div class="parent">
         <header>
-            <div class="sidebar">
-                <div class="sidebar-pos">
-                    <div class="logo">
-                        <a href="#"><span>A</span>tlas</a>
-                    </div>
-                    <!--img-->
-
-                    <div class="menu">
-                        <div class="icones">
-                            <a class="selected" href="#"><img src="assets/home_black_24dp.svg" alt="">
-                                <p>Home</p>
-                            </a>
-                        </div>
-                        <div class="icones">
-                            <a href="#"><img src="assets/person_outline_black_24dp.svg" alt="">
-                                <p>sobre mim</p>
-                            </a>
-                        </div>
-                        <div class="icones">
-                            <a href="#"><img src="assets/list_black_24dp.svg" alt="">
-                                <p>Experiência</p>
-                            </a>
-                        </div>
-                        <div class="icones">
-                            <a href="#"><img src="assets/business_center_black_24dp.svg" alt="">
-                                <p>Projetos</p>
-                            </a>
-                        </div>
-                        <div class="icones">
-                            <a href=""><img src="assets/question_answer_black_24dp.svg" alt="">
-                                <p>contato</p>
-                            </a>
-                        </div>
-
-                    </div>
-                    <!--menu-->
+            <div class="aside">
+                <div class="logo">
+                    <a href="#"><span>H</span>enrique</a>
                 </div>
-                <!--sidebar-pos-->
+                <div class="nav-toggler">
+                    <span></span>
+                </div>
+                <ul class="nav">
+                    <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+                    <li><a href="#services"><i class="fa fa-list"></i>Services</a></li>
+                    <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                    <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
+                </ul>
             </div>
-            <!--sidebar-->
         </header>
 
-        <div class="content">
-            <div class="descricao">
-                <p class="titulo-descricao">Hello, my name is
-                    <a href="#" class="nome">Henrique Fernandes</a>
-                </p>
-                <!--titulo-descricao-->
 
-                <p class="conteudo-descricao">I'm Paulista, born in the city of Guarulhos/SP. I am currently a high school student, I am a computer technician at
-                    <a href="https://www.eniac.com.br/" class="escola">colégio Eniac</a>...</p>
-                <!--conteudo-descricao-->
-                <input type="button" value="Hire me" class="botao-contato">
-            </div>
-            <!--descricao-->
+        <div class="main-content">
+            <section class="home section" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Hello, my name is <span class="name">Henrique Fernandes Rodrigues</span></h3>
+                            <h3 class="my-profession">I'm a <span class="typing">web designer</span></h3>
+                            <p>I'm Paulista, born in the city of Guarulhos/SP. I am currently a high school student, I am a computer technician at
+                                <a href="https://www.eniac.com.br" class="escola">colégio Eniac</a>...
+                            </p>
+                            <a href="#contact" class="btn hire-me">Hire Me</a>
+                        </div>
+                        <div class="home-img padd-15">
+                            <img src="assets/WhatsApp Image 2022-01-12 at 22.53.53.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="container-about">
+                    <p class="titulo-about">About Me</p>
+                </div>
+                <div class="conteudo">
+                    <p class="titulo-conteudo-about">I'm Henrique Fernandes Rodrigues and <span class="typing">web developer</span></p>
+                    <p class="paragrafo-about">I'm Paulista, born in the city of Guarulhos/SP. I am currently a high school student, I am a computer technician at <a href="https://www.eniac.com.br" class="escola">colégio Eniac </a> by programming, I also like to try to love myself
+                        with new codes and teach new horizons and also because of this I am very interested in wanting to develop codes and new horizons. know more about me download my curriculum and come to know me better.</p>
+                </div>
+            </section>
         </div>
-        <!--Content-->
     </div>
     <!--Parent-->
+    <script src="js/script.js"></script>
 </body>
 
 </html>
