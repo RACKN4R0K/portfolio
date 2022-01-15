@@ -93,7 +93,7 @@ ul {
 .btn {
     font-size: 16px;
     font-weight: 500;
-    padding: 12px 35px;
+    padding: 15px 35px;
     color: white;
     border-radius: 40px;
     display: inline-block;
@@ -230,7 +230,7 @@ ul {
 }
 
 .aside .nav li a.active {
-    color: var(--skin-color);
+    color: #ec1839;
 }
 
 .aside .nav li a i {
@@ -367,4 +367,68 @@ h3.my-profession {
     padding-top: 60px;
     background: #f2f2fc;
     padding-bottom: 70px;
+}
+
+
+/*Qualidades*/
+
+.qualidades{
+    margin-top: 60px;
+    color: #504e70;
+}
+.lado-esquerdo{
+    width: 55%;
+}
+.linha-1{
+    display: flex;
+    margin-bottom: 10px;
+}
+.linha-1 p:nth-child(2){
+    margin: 0 auto;
+}
+.pergunta{
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #302e4d;
+}
+.linha-qualidades{
+    width: 45%;
+    height: 1px;
+    background-color: #e8dfec;
+    position: absolute;
+}
+.linha-secundaria{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.linha-secundaria p:nth-child(2){
+    margin: 0 auto;
+}
+
+.botaos-qualidades{
+    margin-top: 10%;
+}
+
+.curriculo{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 40px;
+    color: white;
+    border-radius: 40px;
+    display: inline-block;
+    white-space: nowrap;
+    border: none;
+    background: #ec1839;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.curriculo:hover {
+    transform: scale(1.05);
+}
+
+.botaos-qualidades a:nth-child(2){
+    margin-left: 15px;
 }
