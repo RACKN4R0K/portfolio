@@ -661,4 +661,7 @@ h3.my-profession {
   .about .about-content h3.title-2 {
     display: none;
   }
+  .buttons{
+    display: flex;
+  }
 }
