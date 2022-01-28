@@ -107,6 +107,7 @@ ul {
   border: none;
   background: var(--skin-color);
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 .btn:hover {
   transform: scale(1.05);
@@ -577,11 +578,12 @@ h3.my-profession {
   text-transform: capitalize;
   margin: 15px 0 5px;
 }
-.contact .contact-info-item p {
+.contact .contact-info-item a {
   font-size: 16px;
   line-height: 25px;
   color: var(--text-black-700);
   font-weight: 400;
+  text-decoration: none;
 }
 .contact .contact-form {
   flex: 0 0 100%;
